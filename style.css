@@ -1,0 +1,40 @@
+/* CSS Document */
+
+/*
+Theme Name: 150 Books Child Theme
+Description: Child theme for the Twenty Ten theme 
+Author: MIT Libraries
+Template: twentyten
+*/
+
+@import url("../twentyten/style.css");
+
+/*This makes it our font set*/
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*This makes the font size work better for our font set*/
+#content, #content input, #content textarea {
+font-size:1.2em;
+}
+
+/*This hides the author and date under the header on the images pages.*/
+.meta-prep, .entry-date, .meta-sep, .author.vcard {
+	display:none;
+}
+
+/*This hides the commenting options and post category.*/
+.entry-utility {
+	display: none
+}
+
+/*This hides the WordPress links in the footer*/
+#site-generator {
+	display:none;
+}
+
+/*This hides the "Leave a Reply" section below image pages.*/
+#respond {
+	display:none;
+}
